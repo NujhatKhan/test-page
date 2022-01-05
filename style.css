@@ -1,0 +1,47 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+#welcome{
+    text-align: center;
+    text-shadow: 5px 5px 5px grey;
+    
+}
+section{
+    display: flex;
+}
+#about-sec{
+    background-image: url("images/for_background-svg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width{
+    width: 50%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.about{
+    background-image: linear-gradient(to bottom, rgb(80, 175, 212),white);
+    height: 250px;
+    padding: 10px 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.links{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(228, 101, 101);
+    color: wheat;
+}
+#kawai{
+    width: 80%;
+    height:500px;
+}
+.genre{
+    margin-left: 40px;
+    background-image: linear-gradient(to bottom, rgb(139, 218, 238), white);
+    padding-right: 200px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
