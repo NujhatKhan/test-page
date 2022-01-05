@@ -33,6 +33,7 @@ section{
     text-decoration: none;
     background-color: rgb(228, 101, 101);
     color: wheat;
+    border-radius: 5px;
 }
 #kawai{
     width: 80%;
@@ -44,4 +45,30 @@ section{
     padding-right: 200px;
     padding-left: 20px;
     border-radius: 10px;
+    height:250px
+}
+figcaption{
+    color: skyblue;
+    }
+#kawai1{
+    height:500px;
+    border-radius: 20px;
+}
+#sec-two{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.box{
+    box-shadow: 5px 5px 20px grey;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    border-left: 10px solid;
+    border-image: linear-gradient(#6495ED,#7DF9FF);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+footer{
+    color: grey;
+    text-align: center;
+    font-size: 12px;
 }
